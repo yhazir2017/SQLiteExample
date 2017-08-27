@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SQLite
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,34 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    @IBAction func createTable(_ sender: Any) {
+        print("CREATE TAPPED")
+    }
+    
+    
+    @IBAction func insertUser(_ sender: Any) {
+        print("INSERT TAPPED")
+    }
+    
+    
+    @IBAction func listUsers(_ sender: Any) {
+         print("LIST TAPPED")
+    }
+    
+    @IBAction func updateUser(_ sender: Any) {
+        print("UPDATE TAPPED")
+        
+    }
+    
+
+    @IBAction func deleteUser(_ sender: Any) {
+        print("DELETE TAPPED")
+    }
+    
+    
+
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
